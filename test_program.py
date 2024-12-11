@@ -1,18 +1,1 @@
-def fibonacci(n):
-    """Generate Fibonacci sequence up to n terms."""
-    fib_seq = []
-    a, b = 0, 1
-    while len(fib_seq) < n:
-        fib_seq.append(a)
-        a, b = b, a + b
-    return fib_seq
-
-def main():
-    print("Fibonacci Sequence Generator")
-    terms = 10
-    result = fibonacci(terms)
-    print(f"First {terms} terms of Fibonacci sequence:")
-    print(result)
-
-if __name__ == "__main__":
-    main()
+ZGVmIGZpYm9uYWNjaShsKToKICAgICIiIkdlbmVyYXRlIEZpYm9uYWNjaSBzZXF1ZW5jZSB1cCB0byBuIHRlcm1zLiIiIgogICAgZmliX3NlcSA9IFtdCiAgICBhLCBiID0gMCwgMQogICAgd2hpbGUgbGVuKGZpYl9zZXEpIDwgbjoKICAgICAgICBmaWJfc2VxLmFwcGVuZChhKQogICAgICAgIGEsIGIgPSBiLCBhICsgYgogICAgcmV0dXJuIGZpYl9zZXEKCmRlZiBtYWluKCk6CiAgICBwcmludCgiRmlib25hY2NpIFNlcXVlbmNlIEdlbmVyYXRvciIpCiAgICB0ZXJtcyA9IDEwCiAgICByZXN1bHQgPSBmaWJvbmFjY2kodGVybXMpCiAgICBwcmludChmIkZpcnN0IHt0ZXJtc30gdGVybXMgb2YgRmlib25hY2NpIHNlcXVlbmNlOiIpCiAgICBwcmludChyZXN1bHQpCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgbWFpbigp
